@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ollama-linter"
+version = "0.1.0"
+description = ""
+authors = ["Bertram Holzer <bertram@bho-software.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+gitpython = "^3.1.43"
+ollama = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
